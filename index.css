@@ -647,3 +647,31 @@ transform: translateY(0px);
         box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
     }
 }
+
+
+@media (min-width: 310px){
+
+   .float{
+     position:fixed;
+     width:90px;
+     height:90px;
+     bottom:70px;
+     right:40px;
+     background-color:#25d366;
+     color:#FFF;
+     border-radius:100px;
+     text-align:center;
+     font-size:60px;
+     box-shadow: 4px 4px 6px #999;
+     z-index:100;
+    }
+    .float:hover {
+       text-decoration: none;
+       color: #25d366;
+    }
+
+    .my-float{
+       margin-top:10px;
+    }
+
+}
