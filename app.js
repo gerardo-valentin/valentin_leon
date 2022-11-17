@@ -20,7 +20,7 @@ const cargarImagen = (entradas, observador) => {
 // se crea la opcion observador
 const observador = new IntersectionObserver(cargarImagen, {
 	root: null,
-	rootMargin: '100px 0px 50px 0px',
+	rootMargin: '100px 0px 100px 0px',
 	threshold: 1.0
 });
 
